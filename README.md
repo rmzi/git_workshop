@@ -1,4 +1,4 @@
-# Git + Github Example
+# THIS WILL INTRODUCE A CONFLICT????
 
 1. Walk participants through the existing code + show it running
 	* Run `python -m SimpleHTTPServer` from within the root directory and go to [http://localhost:8000](http://localhost:8000).
@@ -8,8 +8,8 @@
 
 3. After finishing the additions, commit and push to the new branch and show thew new branch in Github. After, start a pull request to show participants the value of peer review via pull requests.
 
-4. After vetting the change as a group, another user should accept this change and merge the PR. 
+4. After vetting the change as a group, another user should accept this change and merge the PR.
 
-5. Can continue to iterate on this idea by adding multiplication, division, factorial (for the really adventurous), even exponents! Really groundbreaking stuff here. 
+5. Can continue to iterate on this idea by adding multiplication, division, factorial (for the really adventurous), even exponents! Really groundbreaking stuff here.
 
 6. TODO: add something like Mocha to automatically test functionality.
