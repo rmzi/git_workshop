@@ -1,4 +1,4 @@
-<html>
+ <html>
   <head>
     <title>Test Calculator</title>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
@@ -9,7 +9,7 @@
     <input id="result" type="text"/>
     <br>
     <button onclick="add()">Add</button>
-
+    <button onclick="sub()">Subtract</button>
 
     <script>
     function myFunction() {
@@ -21,6 +21,14 @@
       var val2 = parseInt(document.getElementById("val2").value);
       document.getElementById("result").value = val1 + val2;
     }
+
+    function sub(){
+      var val1 = parseInt(document.getElementById("val1").value);
+      var val2 = parseInt(document.getElementById("val2").value);
+      document.getElementById("result").value = val1 - val2;
+    }
+
+
     </script>
   </body>
 </html>
